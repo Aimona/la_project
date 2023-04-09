@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: wordpress-mysql
+spec:
+  type: ExternalName
+  externalName: 20230408154546096500000001.cjgnhlulqlqg.us-east-1.rds.amazonaws.com  #replace with rds URL
